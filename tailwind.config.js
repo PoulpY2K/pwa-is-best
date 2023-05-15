@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,vue}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/iphone.png')",
+      }
+    }
   },
   plugins: [],
 }
